@@ -65,7 +65,7 @@ Ensure you have the following installed:
    docker run -p 3000:3000 kirana-club-image
 
 
-# Possible Improvementsi can make:
+# Possible Improvements can make:
 
 - can use Authentication and provide RBAC to user and admin.
 - Use Cloud Storage (AWS S3, Google Cloud Storage) instead of storing images locally.
