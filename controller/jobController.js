@@ -2,7 +2,7 @@ const Job = require("../models/jobModel.js");
 const processImages = require("./processImage.js");
 
 
-// job submitter:
+// 1). job submitter:
 const jobSubmitter =  async (req, res)=>{
 
     try {
