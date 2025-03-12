@@ -48,7 +48,7 @@ const jobSubmitter =  async (req, res)=>{
     }
 };
 
-// get Job status:
+// 2).get Job status:
 const jobStatus = async (req, res)=>{
     try {
         const { jobid } = req.query;
