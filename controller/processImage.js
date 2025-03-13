@@ -19,7 +19,7 @@ const processImages = async (jobId) => {
 
         for (const visit of job.visits) {
 
-            // Checking if store_id exists in the database:
+            // Checking if store_id exists in our database:
             const storeExists = await Store.exists({ StoreID: visit.store_id });
 
             if (!storeExists) {
@@ -29,7 +29,7 @@ const processImages = async (jobId) => {
                     error: "Store ID not found in database"
                 });
 
-                // Skip processing images for this store
+                // Skip processing images for this store as it doesn't exists:
                 continue; 
             }
 
