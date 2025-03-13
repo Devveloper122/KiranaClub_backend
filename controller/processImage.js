@@ -6,7 +6,7 @@ const Job = require("../models/jobModel.js");
 const Store = require("../models/storeModel.js");
 
 
-//  Image Processing Function:
+//  1). Image Processing Function:
 const processImages = async (jobId) => {
 
     try {

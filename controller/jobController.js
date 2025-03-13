@@ -35,7 +35,7 @@ const jobSubmitter =  async (req, res)=>{
             processImages(newJob._id);
 
             res.status(201).json({ job_id: newJob._id });
-        } 
+        }
         catch (error) {
             console.log(error);
             res.status(400).json({message: error.body});
