@@ -1,4 +1,4 @@
-// creating jobSchema using mongoose:
+// 1). creating jobSchema using mongoose:
 
 const mongoose = require("mongoose");
 
