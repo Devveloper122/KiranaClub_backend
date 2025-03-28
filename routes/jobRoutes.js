@@ -3,7 +3,7 @@ const { jobSubmitter, jobStatus } = require("../controller/jobController");
 
 const router = express.Router();
 
-// 1). Job submit route
+// 1). Job submit Route
 router.post('/submit', jobSubmitter);
 
 // 2). Job status Route
