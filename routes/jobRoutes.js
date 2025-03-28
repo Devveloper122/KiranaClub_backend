@@ -5,6 +5,8 @@ const router = express.Router();
 
 // 1). Job submit route
 router.post('/submit', jobSubmitter);
+
+// 2). Job status api
 router.get('/status', jobStatus);
 
 module.exports = router;
